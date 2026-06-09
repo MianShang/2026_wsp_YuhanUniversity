@@ -11,7 +11,7 @@ int main()
     HANDLE hDir = INVALID_HANDLE_VALUE;
 
     /// 디렉터리 변경에 대한 이벤트를 받을 Actions 목록 설정
-    DWORD flags = FILE_NOTIFY_CHANGE_FILE_NAME |                /// 파일 이름 변경
+    DWORD flags = FILE_NOTIFY_CHANGE_FILE_NAME |      /// 파일 이름 변경
         FILE_NOTIFY_CHANGE_DIR_NAME |                 /// 디렉터리 이름 변경
         FILE_NOTIFY_CHANGE_ATTRIBUTES |               /// 파일 속성 변경
         FILE_NOTIFY_CHANGE_SIZE |                     /// 파일 크기 변경
